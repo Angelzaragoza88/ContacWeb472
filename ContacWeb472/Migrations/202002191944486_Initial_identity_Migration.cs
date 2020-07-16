@@ -1,9 +1,9 @@
-namespace ContacWeb472.Migrations
+namespace ContactWeb472.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Initial_identity_Migration : DbMigration
+    public partial class Initial_Identity_Migration : DbMigration
     {
         public override void Up()
         {

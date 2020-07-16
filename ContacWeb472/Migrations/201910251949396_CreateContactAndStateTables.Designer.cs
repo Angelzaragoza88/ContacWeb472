@@ -7,13 +7,13 @@ namespace ContactWeb472.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Initial_Identity_Migration : IMigrationMetadata
+    public sealed partial class CreateContactAndStateTables : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial_Identity_Migration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateContactAndStateTables));
         
         string IMigrationMetadata.Id
         {
-            get { return "201910232317259_Initial_Identity_Migration"; }
+            get { return "201910251949396_CreateContactAndStateTables"; }
         }
         
         string IMigrationMetadata.Source
